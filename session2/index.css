@@ -1,24 +1,26 @@
-.container {
+
+.firstcontainer {
   display: grid;
   grid-template-columns: auto;
   background-color:blue;
   padding: 10px;
 }
-.container > div {
+.firstcontainer > div {
   background-color: #f1f1f1;
   border: 1px solid black;
   padding: 10px;
   font-size: 30px;
   text-align: center;
+  text-decoration: underline;
 }
 
-#container {
+#secondcontainer {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto;
   background-color: red;
   padding: 10px;
 }
-#container > div {
+#secondcontainer > div {
   background-color: #f1f1f1;
   border: 1px solid black;
   padding: 10px;
@@ -26,3 +28,30 @@
   text-align: center;
 }
 
+#thirdcontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: purple;
+  padding: 10px;
+}
+#thirdcontainer > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#fourthcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: red;
+  padding: 10px;
+}
+#fourthcontainer > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
